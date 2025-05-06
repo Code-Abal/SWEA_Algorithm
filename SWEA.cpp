@@ -3,11 +3,7 @@
 #include <vector>
 #include <queue>
 using namespace std;
-/*
-L과 R의 값을 합하고 절대값 + ?갯수
-그리고 L or R이 있으면 true값.
-true값일 때는 
-*/
+
 const int OFFSET = 100;
 int Robot(const string& str, int idx, int pos, vector<vector<int>>& dp)
 {
